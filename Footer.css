@@ -1,0 +1,55 @@
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #4b0082; /* Dark purple background */
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Links styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #d8bfd8; /* Light purple background */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+}
+
+
+/* Social media icons */
+.social-media-icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust size of social media icons */
+.social-media-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+/* Adjust color for social media icons */
+.social-media-icons a {
+  color: #333; /* Light grey color */
+}

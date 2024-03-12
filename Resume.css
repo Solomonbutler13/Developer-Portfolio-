@@ -1,0 +1,90 @@
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding */
+    text-align: center;
+    max-width: 800px; /* Limit the width */
+    margin: 0 auto; /* Center the footer */
+}
+
+/* Social media buttons container */
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust top margin */
+}
+
+/* Social media icons */
+.social-media-icons {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust size of social media icons */
+.social-media-icons img {
+    width: 30px; /* Set width */
+    height: 30px; /* Set height */
+    margin: 0 5px; /* Adjust margin */
+}
+
+/* Resume page container */
+.resume {
+    padding: 20px;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Section title styles */
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Skills list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Skill item styles */
+ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Resume actions styles */
+.resume-actions {
+    margin-top: 20px;
+}
+
+/* View resume link styles */
+.view-resume {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Download resume link styles */
+.download-resume {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}

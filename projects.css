@@ -1,0 +1,57 @@
+/* Projects page container */
+.projects {
+    padding: 20px;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Project container styles */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Project styles */
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Project title styles */
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Project image styles */
+.project img {
+    max-width: 60%; /* Make the images responsive */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Project description styles */
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Adjust the placement of the third project */
+.project:nth-child(3) {
+    grid-column: span 2; /* Make it span two columns */
+    justify-self: center; /* Center the project */
+}

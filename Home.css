@@ -1,0 +1,35 @@
+/* Home page container */
+.home {
+    padding: 20px;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center-align text */
+}
+
+/* Header styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Profile picture styles */
+.profile-Picture {
+    
+    width: 150px; /* Adjust the size of the profile picture */
+    height: 150px;
+    border-radius: 50%; /* Make the profile picture round */
+    margin-bottom: px;
+    margin-left: auto; /* Move the profile picture to the right */
+    margin-right: auto;
+}
